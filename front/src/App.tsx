@@ -1,9 +1,13 @@
-import './assets/styles/custom.scss';
-import './App.css';
+import "./assets/styles/custom.scss";
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <h1>Virtual Car Store</h1>
+    <>
+      <Navbar />
+      <h1>Virtual Car Store</h1>
+    </>
   );
 }
 
