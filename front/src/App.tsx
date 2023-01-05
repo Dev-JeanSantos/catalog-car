@@ -1,14 +1,15 @@
 import "./assets/styles/custom.scss";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home/Home";
 
-function App() {
+const App = () => {
   return (
     <>
       <Navbar />
-      <h1>Virtual Car Store</h1>
+      <Home />
     </>
   );
-}
+};
 
 export default App;
